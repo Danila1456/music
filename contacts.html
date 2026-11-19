@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Данила" content="Студент">
+  <meta name="description" content="Контакты и расписание школы музыки Мелодия">
+  <meta name="keywords" content="контакты, адрес, расписание">
+  <title>Мелодия - контакты</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+<div class="top" id="start">
+  <h1>Контакты</h1>
+  <h3>Запишитесь на бесплатный урок</h3>
+</div>
+<div class="menu">
+  <a href="index.html">О школе</a>
+  <a href="courses.html">Курсы и цены</a>
+  <a href="contacts.html">Контакты</a>
+</div>
+<div class="content">
+  <div class="card">
+    <h2>Как нас найти</h2>
+    <img src="img/notes.svg" alt="Ноты" class="pic-left" width="160">
+    <p>Адрес: г. Ульяновск, ул. Музыкальная, д. 5.<br>Телефон: +7 (900) 123-45-67.</p>
+    <p>Посмотреть карту можно на <a href="https://yandex.ru/maps" target="_blank">Яндекс Картах</a>.</p>
+    <div class="stop"></div>
+  </div>
+
+  <div class="card">
+    <h3>Режим работы</h3>
+    <table>
+      <tr><th>День</th><th>Часы работы</th></tr>
+      <tr><td>Пн - Пт</td><td>10:00 - 20:00</td></tr>
+      <tr><td>Суббота</td><td>10:00 - 16:00</td></tr>
+      <tr><td>Воскресенье</td><td>выходной</td></tr>
+    </table>
+    <ul>
+      <li><a href="#tools">Полезные кнопки</a></li>
+      <li><a href="index.html">На главную</a></li>
+    </ul>
+  </div>
+
+  <div class="card" id="tools">
+    <h3>Полезные кнопки</h3>
+    <h4>Какое сегодня число?</h4>
+    <button onclick="showToday()">Показать дату</button>
+    <h4>Убрать цифры из текста</h4>
+    <textarea id="digitsInput">Мой номер 8900123 и мне 15 лет, хочу учиться играть на гитаре 2 раза в неделю</textarea><br>
+    <button onclick="cleanDigits()">Убрать цифры</button>
+    <p><a href="#start">Наверх</a></p>
+  </div>
+</div>
+<div class="bottom">Школа музыки «Мелодия» &copy; 2026. Лабораторная работа №2</div>
+<script src="main.js"></script>
+</body>
+</html>

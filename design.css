@@ -1,0 +1,18 @@
+body { font-family: Georgia, serif; background: #fdf6ec; color: #2b1a3d; margin: 0; line-height: 1.5; }
+.top { background: linear-gradient(90deg, #4a2c6d, #8e44ad); color: #fff; text-align: center; padding: 25px 10px 15px; }
+.top h1 { margin: 0 0 5px; font-size: 34px; }
+.menu { background: #2b1a3d; text-align: center; padding: 10px; }
+.menu a { color: #fff; background: #e67e22; padding: 6px 16px; margin: 0 6px; border-radius: 15px; text-decoration: none; }
+.menu a:hover { background: #f39c12; }
+.content { max-width: 850px; margin: 25px auto; padding: 0 20px; }
+.card { background: #fff; border-left: 6px solid #e67e22; padding: 15px 20px; margin-bottom: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+.pic-left { float: left; margin: 0 20px 10px 0; border-radius: 10px; }
+.pic-right { float: right; margin: 0 0 10px 20px; border-radius: 10px; }
+.stop { clear: both; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+th { background: #8e44ad; color: #fff; padding: 8px; }
+td { border-bottom: 1px solid #ccc; padding: 8px; text-align: center; }
+.reviews { height: 90px; overflow: auto; border: 1px solid #bbb; padding: 8px; background: #faf5ff; }
+button { background: #8e44ad; color: #fff; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; }
+textarea { width: 95%; height: 60px; }
+.bottom { background: #2b1a3d; color: #ddd; text-align: center; padding: 15px; margin-top: 30px; }
